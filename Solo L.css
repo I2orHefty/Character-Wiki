@@ -12,6 +12,7 @@
   outline-width:7px;
   
   }
+
   
   .glow {
    color:white;
@@ -29,6 +30,13 @@
       text-shadow: 0 0 20px #fff, 0 0 30px #2161f3, 0 0 40px #2161f3, 0 0 50px #2161f3, 0 0 60px #2161f3, 0 0 70px #2161f3, 0 0 80px #2161f3;
     }
   }
+  
+h2 {color: #652DC1;  
+  text-align:center;
+  font-family: Lucidia console;
+  
+}
+
   p{font-size:16px;
     color:#652DC1
   }
@@ -40,7 +48,7 @@
   }
   
   .topnav a {
-    float:left;
+    float:center;
     display: block;
     color:#fff;
     text-align: center;
@@ -102,14 +110,23 @@
   }
   
   iframe:hover{
-  width:330px;
-  height:240px;
+  width:450px;
+  height:300px;
   }
+
+ 
   
-  .leftcolumn {   
-    float: left;
-    width: 75%;
-  }
+.img-container {
+  float: left;
+  width: 25%;
+  padding: 17px;
+}
+
+.space {
+  float: left;
+  width:40%;
+  padding:50px;
+}
   
   
   .rightcolumn {
@@ -127,7 +144,7 @@
   }
   
   
-  .row:after {
+  .clearfix::after {
     content: "";
     display: table;
     clear: both;
