@@ -2,7 +2,7 @@
 Wiki page for the main charcter of Solo Levelling
 
 - This webpage was created through the use of HTML an CSS.
-- You can have live access to the wiki [here](https://mk-wiki.vercel.app).
+- You can have live access to the wiki [here]([https://mk-wiki.vercel.app](http://127.0.0.1:5500/Solo%20L.html)).
 
   ## Progress
   
